@@ -20,6 +20,7 @@ import java.time.LocalDate;
 @DynamicUpdate
 @SelectBeforeUpdate
 @DynamicInsert
+
 public class StudentEntity {
 
     @Id
