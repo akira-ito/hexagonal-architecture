@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 import org.hibernate.annotations.SelectBeforeUpdate;
 
@@ -18,6 +19,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @DynamicUpdate
 @SelectBeforeUpdate
+@DynamicInsert
 public class StudentEntity {
 
     @Id
