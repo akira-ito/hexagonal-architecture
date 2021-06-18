@@ -1,12 +1,12 @@
 package ito.akira.hexagonal.api.application.http.dto;
 
-import javax.validation.constraints.NotNull;
-
 import lombok.Getter;
+
+import javax.validation.constraints.NotNull;
 
 @Getter
 public class UpdateStatusStudentDTO {
-	
-	@NotNull
-	public boolean status;
+
+    @NotNull
+    public boolean status;
 }

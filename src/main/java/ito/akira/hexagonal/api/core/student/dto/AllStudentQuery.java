@@ -6,5 +6,5 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public class AllStudentQuery {
-	private String name;
+    private String name;
 }

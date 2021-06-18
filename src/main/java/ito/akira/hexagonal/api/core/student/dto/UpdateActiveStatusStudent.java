@@ -4,9 +4,9 @@ import lombok.Getter;
 
 @Getter
 public class UpdateActiveStatusStudent {
-	private boolean status;
-	
-	public UpdateActiveStatusStudent(boolean status) {
-		this.status = status;
-	}
+    private boolean status;
+
+    public UpdateActiveStatusStudent(boolean status) {
+        this.status = status;
+    }
 }
