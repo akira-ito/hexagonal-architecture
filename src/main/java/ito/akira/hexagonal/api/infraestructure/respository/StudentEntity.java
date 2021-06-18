@@ -16,8 +16,8 @@ import java.time.LocalDate;
 @Table(name = "student")
 @NoArgsConstructor
 @AllArgsConstructor
-@DynamicUpdate()
-@SelectBeforeUpdate()
+@DynamicUpdate
+@SelectBeforeUpdate
 public class StudentEntity {
 
     @Id
