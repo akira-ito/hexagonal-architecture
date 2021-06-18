@@ -22,8 +22,8 @@ import lombok.NoArgsConstructor;
 @Table(name = "student")
 @NoArgsConstructor
 @AllArgsConstructor
-@DynamicUpdate(false)
-@SelectBeforeUpdate(false)
+@DynamicUpdate()
+@SelectBeforeUpdate()
 public class StudentEntity {
 
     @Id
