@@ -14,11 +14,7 @@ import java.util.Objects;
 @AllArgsConstructor
 public final class StudentService implements StudentServicePort {
     private final StudentRepositoryPort studentRepository;
-
-    public StudentService() {
-        super();
-    }
-
+    
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
